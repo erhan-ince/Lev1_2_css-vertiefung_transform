@@ -1,0 +1,12 @@
+div {
+   margin-top: 100px;
+   margin-left: 500px;
+   background-color: red;
+   width: 150px;
+   height: 150px;
+   transition: transform 2s;
+   transform-origin: bottom left;
+}
+div:hover {
+   transform: rotate(90deg) scale(2);
+}
